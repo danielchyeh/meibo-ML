@@ -2,7 +2,7 @@
 
 by Chun-Hsiao Yeh, Stella X. Yu and Meng C. Lin at School of Optometry and ICSI, UC Berkeley
 
-Translational Vision Science & Technology February 2021, Vol.10, 4.
+<em>Translational Vision Science & Technology February 2021, Vol.10, 4.<em>
 
 [Journal Page](https://tvst.arvojournals.org/article.aspx?articleid=2772251) | [PDF](http://www1.icsi.berkeley.edu/~stellayu/publication/doc/2021meiboTVST.pdf) | 
 
