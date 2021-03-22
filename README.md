@@ -4,7 +4,7 @@ by Chun-Hsiao Yeh, Stella X. Yu and Meng C. Lin at School of Optometry and ICSI,
 
 [Journal Page](https://tvst.arvojournals.org/article.aspx?articleid=2772251) | [PDF](http://www1.icsi.berkeley.edu/~stellayu/publication/doc/2021meiboTVST.pdf) | 
 
-<img src="meibo-ML-title-img.png" width="100%" />
+<img src="title-img.png" width="100%" />
 
 ## Updates
 [3/2021] Initial Commit. We re-implemented meibo-ML in this repo. (instruction below).
