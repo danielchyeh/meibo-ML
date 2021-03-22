@@ -8,6 +8,9 @@ by Chun-Hsiao Yeh, Stella X. Yu and Meng C. Lin at School of Optometry and ICSI,
 
 <img src="title-img.png" width="ˊ%" />
 
+The proposed NPID approach automatically analyses MG atrophy severity from meibography images without prior image annotations, and categorizes the gland characteristics through hierarchical clustering. This method provides quantitative information on the MG atrophy severity based on the analysis of phenotypes. Further information please contact [Chun-Hsiao Yeh](mailto:daniel-yeh@berkeley.edu)
+
+
 ## Updates
 [3/2021] Initial Commit. We re-implemented meibo-ML in this repo. (instruction below).
 
