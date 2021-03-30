@@ -8,7 +8,7 @@ by Chun-Hsiao Yeh, Stella X. Yu and Meng C. Lin at School of Optometry and ICSI,
 
 <img src="title-img.png" width="ˊ%" />
 
-The proposed NPID approach automatically analyses MG atrophy severity from meibography images without prior image annotations, and categorizes the gland characteristics through hierarchical clustering. This method provides quantitative information on the MG atrophy severity based on the analysis of phenotypes. Further information please contact [Chun-Hsiao Yeh](mailto:daniel-yeh@berkeley.edu)
+The proposed NPID approach automatically analyses MG atrophy severity from meibography images without prior image annotations, and categorizes the gland characteristics through hierarchical clustering. This method provides quantitative information on the MG atrophy severity based on the analysis of phenotypes. Please contact [Chun-Hsiao Yeh](mailto:daniel-yeh@berkeley.edu) for further details or information.
 
 
 ## Updates
@@ -17,14 +17,13 @@ The proposed NPID approach automatically analyses MG atrophy severity from meibo
 
 ## Requirements
 ### Packages
-* Python >= 3.7, < 3.9
+* Python = 3.7
 * PyTorch >= 1.6
-* tensorboard >= 1.14 (for visualization)
 * pandas
 * numpy
 
 ## Citation
-If you find our work inspiring or use our codebase in your research, please cite our work.
+please cite our work if you use this work in your research.
 ```
 @article{yeh2021meibography,
   title={Meibography phenotyping and classification from unsupervised discriminative feature learning},
@@ -42,7 +41,7 @@ If you find our work inspiring or use our codebase in your research, please cite
 This project is licensed under the MIT License. See [LICENSE](https://github.com/danielchyeh/meibo-ML/blob/main/LICENSE) for more details. The parts described below follow their original license.
 
 ## Acknowledgements
-This is a project based on this [pytorch template](https://github.com/victoresque/pytorch-template). The pytorch template is inspired by the project [Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template) by [Mahmoud Gemy](https://github.com/MrGemy95)
+This is a project based on this [pytorch template](https://github.com/victoresque/pytorch-template). The pytorch template is inspired by the project [Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template) by [Mahmoud Gemy](https://github.com/MrGemy95). The template of this github page partially follows [RIDE](https://github.com/frank-xwang/RIDE-LongTailRecognition).
 
 
 
