@@ -24,6 +24,46 @@ The proposed NPID approach automatically analyses MG atrophy severity from meibo
 
 ## Prepare Datasets
 It is recommended to follow your dataset root (assuming $YOUR_DATA_ROOT) to $meibo_ML/data. If your folder structure is different, you may need to change the corresponding paths in files. The meibography data we used is not published yet, we will keep updated once the data is open.
+```
+meibo-ML
+├── data
+│   ├── train
+│   ├── val
+│   └── test
+```
+
+## Usage
+This section provides basic tutorials about the usage of meibo-ML implementation.
+
+### Training
+To pretrain the model on the meibography data with a single GPU, try the following command:
+```
+python main.py 'data/' \
+--resume lemniscate_resnet50.pth \
+--arch resnet50 \
+-j 32 \
+--nce-k 4096 \
+--nce-t 0.07 \
+--lr 0.005 \
+--nce-m 0.5 \
+--low-dim 128 \
+--epochs 200 \
+--wd 4e-5 \
+--save_schedule 30 60 90 120 150 180 200 \
+--save_path ${your experiment folder} \
+-b 32
+```
+Note: `--resume` is set to resume ImageNet pretrained model. Our Initial setting is to train a ResNet-50 backbone network with the batchsize of 32, initial learning rate of 0.005, and the temperature of 0.07. `--save_path` specifies the output folder, and the checkpoints will be dumped to '${your experiment folder}'.  `--save_schedule` is to save extra checkpoints for further evaluation.
+
+### Evaluation
+To test the model on the meibography data, try the following command:
+```
+python main.py 'data/' \
+--resume '${your saved model for evalution}' \
+--arch resnet50 \
+-e
+```
+Note: `--resume` is to specify the saved models for evaluation. ('${your saved model for evalution}')
 
 ## Citation
 please cite our work if you use this work in your research.
