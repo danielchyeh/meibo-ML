@@ -68,10 +68,9 @@ Note: `--resume` is to specify the saved models for evaluation. ('${your saved m
 ### Pretrained Models
 The pre-trained models can be found below. Note that for the best performance we used ImageNet pretrained model in our training.
 
-|                             Model checkpoint and hub-module                             |          Top-1         |
-|-----------------------------------------------------------------------------------------|------------------------|
-|[meibo-ML w ImageNet pretrained]() |          79.4          |
-|[meibo-ML w/o ImageNet pretrained]() |          62.8          |
+| Model checkpoint and hub-module   |          Top-1         |
+|-----------------------------------|------------------------|
+|[Our meibo-ML w ImageNet pretrained]() |          79.4          |
 
 
 ## Citation
