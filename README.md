@@ -23,7 +23,7 @@ The proposed NPID approach automatically analyses MG atrophy severity from meibo
 * numpy
 
 ## Prepare Datasets
-It is recommended to follow your dataset root (assuming $YOUR_DATA_ROOT) to $meibo_ML/data. If your folder structure is different, you may need to change the corresponding paths in files. The meibography data we used is not published yet, we will keep updated once the data is open.
+It is recommended to follow your dataset root (assuming $YOUR_DATA_ROOT) to $meibo_ML/data. If your folder structure is different, you may need to change the corresponding paths in files. Note that the meibography data we used is not published yet, we will keep updated once the data is open.
 ```
 meibo-ML
 ├── data
@@ -35,7 +35,7 @@ meibo-ML
 ## Usage
 This section provides basic tutorials about the usage of meibo-ML implementation.
 
-### Training
+### Pretraining
 To pretrain the model on the meibography data with a single GPU, try the following command:
 ```
 python main.py 'data/' \
