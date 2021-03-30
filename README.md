@@ -70,7 +70,7 @@ The pre-trained models can be found below. Note that for the best performance we
 
 | Model checkpoint and hub-module   |          Top-1         |
 |-----------------------------------|------------------------|
-|[Our meibo-ML w ImageNet pretrained]() |          79.4          |
+|[Our meibo-ML w ImageNet pretrained](https://drive.google.com/file/d/1SOtTmeCcUhgt5uvvmX8CPyaX0wdVWyxQ/view?usp=sharing) |          79.4          |
 
 
 ## Citation
