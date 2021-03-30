@@ -22,6 +22,9 @@ The proposed NPID approach automatically analyses MG atrophy severity from meibo
 * pandas
 * numpy
 
+## Prepare Datasets
+It is recommended to follow your dataset root (assuming $YOUR_DATA_ROOT) to $meibo_ML/data. If your folder structure is different, you may need to change the corresponding paths in files. The meibography data we used is not published yet, we will keep updated once the data is open.
+
 ## Citation
 please cite our work if you use this work in your research.
 ```
