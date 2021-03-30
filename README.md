@@ -65,6 +65,15 @@ python main.py 'data/' \
 ```
 Note: `--resume` is to specify the saved models for evaluation. ('${your saved model for evalution}')
 
+### Pretrained Models
+The pre-trained models can be found below. Note that for the best performance we used ImageNet pretrained model in our training.
+
+|                             Model checkpoint and hub-module                             |          Top-1         |
+|-----------------------------------------------------------------------------------------|------------------------|
+|[meibo-ML w ImageNet pretrained]() |          79.4          |
+|[meibo-ML w/o ImageNet pretrained]() |          68          |
+
+
 ## Citation
 please cite our work if you use this work in your research.
 ```
@@ -84,7 +93,7 @@ please cite our work if you use this work in your research.
 This project is licensed under the MIT License. See [LICENSE](https://github.com/danielchyeh/meibo-ML/blob/main/LICENSE) for more details. The parts described below follow their original license.
 
 ## Acknowledgements
-This is a project based on this [pytorch template](https://github.com/victoresque/pytorch-template). The pytorch template is inspired by the project [Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template) by [Mahmoud Gemy](https://github.com/MrGemy95). The template of this github page partially follows [RIDE](https://github.com/frank-xwang/RIDE-LongTailRecognition).
+This is a project based on this [pytorch template](https://github.com/victoresque/pytorch-template). The pytorch template is inspired by the project [Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template) by [Mahmoud Gemy](https://github.com/MrGemy95). The template of this github page partially follows [RIDE](https://github.com/frank-xwang/RIDE-LongTailRecognition). The codebase of our work partially follows [NPID](https://github.com/zhirongw/lemniscate.pytorch).
 
 
 
